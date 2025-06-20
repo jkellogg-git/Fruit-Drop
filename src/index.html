@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Drop</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="startOverlay">
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="endOverlay">
+        <h1>Great Job!</h1>
+        <br>
+        <H2>Your score: <span id="scoreSpan"></span></H2>
+        <br>
+        <button id="restartButton">Play Again?</button>
+    </div>
+   
+    <audio id="pickup" src="../sounds/pickup.mp3" type="audio/mp3"></audio>
+    <audio id="background-music" src="../sounds/rose-wine-full.mp3" loop></audio>
+    <script src="game.js"></script>
+</body>
+</html>

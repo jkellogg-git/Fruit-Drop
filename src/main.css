@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+canvas {
+    display: block;
+    background: url('../sprites/grocery.png') no-repeat center center;
+    background-size: cover;
+}
+
+#startOverlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    display: none; 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 2em; 
+    text-align: center; 
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+
+
+#endOverlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    display: none; 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 2em; 
+    text-align: center; 
+}
+
+
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+

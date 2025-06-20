@@ -49,5 +49,4 @@ Features include a timer, score tracking, sound effects, and a responsive canvas
 - **Left Arrow:** Move basket left
 - **Right Arrow:** Move basket right
 
----
 

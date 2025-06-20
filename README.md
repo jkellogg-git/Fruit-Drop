@@ -51,8 +51,3 @@ Features include a timer, score tracking, sound effects, and a responsive canvas
 
 ---
 
-## Author
-
-Jordan Kellogg
-
----
